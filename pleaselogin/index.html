@@ -3,7 +3,7 @@ include 'detect.php';
 
 $detect = new mobile_detect();
 if ($detect->isMobile()){
-include 'wap.php';
+include 'wap.html';
 }else{
 include 'web.html';
 }
